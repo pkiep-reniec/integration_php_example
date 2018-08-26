@@ -1,0 +1,23 @@
+{
+  "name": "reniec/idaas_example",
+  "description": "Example for use our sdk for RENIEC IDaaS",
+  "type": "project",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+  "authors": [
+    {
+      "name": "Miguel Pazo",
+      "email": "miguel.ps19@gmail.com"
+    }
+  ],
+  "require": {
+    "philo/laravel-blade": "^3.1",
+    "arrilot/dotenv-php": "^2.0",
+    "nikic/fast-route": "^1.3",
+    "reniec/idaas": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "controllers/"
+    }
+  }
+}

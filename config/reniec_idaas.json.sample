@@ -1,0 +1,11 @@
+{
+  "client_id": "",
+  "client_secret": "",
+  "auth_uri": "https://idp-pre.reniec.gob.pe/service/auth",
+  "token_uri": "https://idp-pre.reniec.gob.pe/service/token",
+  "userinfo_uri": "https://idp-pre.reniec.gob.pe/service/userinfo",
+  "logout_uri": "https://idp-pre.reniec.gob.pe/service/logout",
+  "auth_provider_keys_uri": "https://idp-pre.reniec.gob.pe/service/certs",
+  "redirect_uris": [],
+  "javascript_origins": []
+}
