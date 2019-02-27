@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Miguel Pazo <http://miguelpazo.com>.
+ * Created by Miguel Pazo <https://miguelpazo.com>.
  */
 
 require __DIR__ . '/vendor/autoload.php';

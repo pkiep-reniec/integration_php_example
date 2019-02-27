@@ -5,7 +5,7 @@ namespace Controllers;
 use Arrilot\DotEnv\DotEnv;
 
 /**
- * Created by Miguel Pazo <http://miguelpazo.com>.
+ * Created by Miguel Pazo <https://miguelpazo.com>.
  */
 class HomeController extends ParentController
 {

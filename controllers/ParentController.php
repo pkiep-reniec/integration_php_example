@@ -8,7 +8,7 @@ use Reniec\Idaas\Constants\Constants;
 use Reniec\Idaas\ReniecIdaasClient;
 
 /**
- * Created by Miguel Pazo <http://miguelpazo.com>.
+ * Created by Miguel Pazo <https://miguelpazo.com>.
  */
 class ParentController
 {
