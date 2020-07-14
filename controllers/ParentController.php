@@ -4,7 +4,7 @@ namespace Controllers;
 
 use Arrilot\DotEnv\DotEnv;
 use Philo\Blade\Blade;
-use Reniec\Idaas\Constants\Constants;
+use Reniec\Idaas\Common\Constants;
 use Reniec\Idaas\ReniecIdaasClient;
 
 /**
@@ -35,11 +35,9 @@ class ParentController
         $oClient->setRedirectUri(DotEnv::get('BASE_URL') . '/auth-endpoint');
         $oClient->setState($state);
 
-        $oClient->setAcr(Constants::ACR_ONE_FACTOR);
+        $oClient->setAcr(Constants::ACR_PKI_DNIE);
 
         $oClient->addScope(Constants::SCOPE_PROFILE);
-        $oClient->addScope(Constants::SCOPE_EMAIL);
-        $oClient->addScope(Constants::SCOPE_PHONE);
 
         return $oClient;
     }

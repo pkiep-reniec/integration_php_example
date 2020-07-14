@@ -13,7 +13,7 @@
     "philo/laravel-blade": "^3.1",
     "arrilot/dotenv-php": "^2.0",
     "nikic/fast-route": "^1.3",
-    "reniec/idaas": "^1.0"
+    "reniec/idaas": "^2.0.1"
   },
   "autoload": {
     "psr-4": {
